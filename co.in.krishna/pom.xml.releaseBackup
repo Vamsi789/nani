@@ -14,7 +14,8 @@
     <connection>scm:git:https://github.com/Vamsi789/nani.git</connection>
     <developerConnection>scm:git:git@github.com/Vamsi789/nani.git</developerConnection>
 	<tag>HEAD</tag>
-   </scm>
+   
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
