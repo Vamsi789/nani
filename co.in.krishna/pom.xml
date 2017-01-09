@@ -10,9 +10,9 @@
   <name>co.in.krishna</name>
   <url>http://maven.apache.org</url>
   <scm>
-      <url>https://github.com/Vamsi789/pc</url>
-    <connection>scm:git:https://github.com/Vamsi789/pc</connection>
-    <developerConnection>scm:git:git:github.com/Vamsi789/pc.git</developerConnection>
+      <url>https://github.com/Vamsi789/nani</url>
+    <connection>scm:git:https://github.com/Vamsi789/nani.git</connection>
+    <developerConnection>scm:git:git@github.com/Vamsi789/nani.git</developerConnection>
 	<tag>HEAD</tag>
    
   </scm>
@@ -29,6 +29,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+  <plugins>
+  <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+		 <artifactId>maven-release-plugin</artifactId>
+		 <version>2.5.3</version>
+   </plugin>
+   </plugins>
+   </build>
+   
   <distributionManagement>
     <snapshotRepository>
         <id>central</id>
